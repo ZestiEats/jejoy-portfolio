@@ -30,7 +30,10 @@ Load tested using Apache JMeter.
 ![JMeter Load Test](jmeter_load_testing.jpeg)
 
 ---
+## 🏗 Production Architecture
 
+![Architecture Diagram](architecture-diagram.png)
+---
 ## 🛠 Tech Stack
 
 Backend: Java, Spring Boot, Spring Security, Hibernate  

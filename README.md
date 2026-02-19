@@ -1,131 +1,72 @@
-# JeJoy – Multi-Application Production-Ready Food Delivery Platform
+# 🚀 JeJoy – Multi-Application Production-Ready Food Delivery Ecosystem
 
-JeJoy is a multi-application, production-ready food delivery ecosystem built using Java (Spring Boot), React, and MySQL.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
-The platform supports:
+JeJoy is a robust, full-scale food delivery platform engineered from the ground up to handle complex multi-user workflows. Built with a modular backend architecture, it seamlessly connects customers, delivery partners, and restaurant owners in real-time.
 
-- Customer Android Application
-- Delivery Partner Android Application
-- Restaurant Owner Android Application
-- Admin & Customer Web Dashboard
-
-The system is powered by a scalable REST API backend and deployed on AWS Lightsail with Nginx reverse proxy and SSL configuration.
-
----
-
-## 🚀 Key Features
-
-- JWT-based secure authentication
-- Role-based access control (Customer, Restaurant Owner, Delivery Partner, Admin)
-- Multi-role order workflow management
-- RESTful API architecture
-- API Versioning Ready (v1 / v2)
-- Cloud deployment on AWS Lightsail
-- Nginx reverse proxy with SSL termination
-- Linux server configuration & production hosting
+> **Note:** The source code is maintained in a private repository to protect business intellectual property. This public repository serves as a showcase of the system architecture, performance benchmarks, and engineering decisions.
 
 ---
 
-## 🧠 Architecture Overview
+## 🏗 System Architecture
 
-The production architecture follows a layered and modular design:
-
-- Client Layer (Web + Multiple Android Apps)
-- JWT Authentication Layer
-- Nginx Reverse Proxy (Traffic handling + SSL termination)
-- Spring Boot REST API
-  - Controller Layer
-  - Service Layer (Business Logic)
-  - Security Layer (Spring Security + JWT)
-- MySQL Relational Database
-- AWS Lightsail (Ubuntu Production Server)
-
----
-
-## 📊 Performance Testing
-
-Load tested using Apache JMeter.
-
-- Concurrent Users: 900
-- Ramp-up Time: 100 seconds
-- Error Rate: 0%
-- Average Response Time: ~80–100ms
-- Stable throughput under high traffic
-
----
-
-## 📸 Load Testing Report
-
-![JMeter Load Test](jmeter_load_testing.jpeg)
-
----
-
-## 🏗 Production Architecture Diagram
+The ecosystem relies on a highly scalable, stateless backend serving multiple client applications:
+* **Customer App (Android)**
+* **Delivery Partner App (Android)**
+* **Restaurant Owner App (Android)**
+* **Admin Dashboard (Web)**
 
 ![Architecture Diagram](architecture-diagram.png)
 
 ---
 
-## 🛠 Tech Stack
+## 🧠 Engineering Challenges & Solutions
 
-### Backend
-- Java
-- Spring Boot
-- Spring Security
-- Hibernate / JPA
+As the solo architect and developer, I tackled several system-level challenges to ensure production readiness:
 
-### Frontend
-- React
-- Vite
-
-### Database
-- MySQL
-
-### Cloud & Infrastructure
-- AWS Lightsail (Ubuntu Server)
-- Nginx Reverse Proxy
-- SSL Configuration
-- Linux Server Management
-
-### Performance Testing
-- Apache JMeter
+1.  **Secure Multi-Role Access:** * *Challenge:* Managing distinct permissions for Customers, Owners, Drivers, and Admins securely.
+    * *Solution:* Implemented robust **Spring Security with JWT-based stateless authentication**, ensuring secure API access across all micro-services.
+2.  **Traffic Routing & Security:**
+    * *Challenge:* Handling incoming traffic efficiently while securing the application.
+    * *Solution:* Configured an **Nginx Reverse Proxy** on AWS Lightsail for load balancing, traffic routing, and SSL termination, preventing direct exposure of the internal Tomcat server.
+3.  **High Concurrency & Reliability:**
+    * *Challenge:* Ensuring the system doesn't crash during peak food ordering hours.
+    * *Solution:* Optimized database queries (MySQL) and validated system resilience using **Apache JMeter**, achieving a 0% error rate under significant concurrent load.
 
 ---
 
-## 🧠 Scalability & System Design Highlights
+## 📊 Performance Benchmark (JMeter)
 
-- Stateless JWT Authentication
-- Modular Service Layer Architecture
-- API Versioning Support
-- Reverse Proxy Architecture
-- Designed for Horizontal Scaling
-- Production-Optimized Deployment
+The Spring Boot backend was rigorously tested to simulate high-traffic scenarios.
 
----
+* **Concurrent Users:** 900
+* **Ramp-up Time:** 100 seconds
+* **Error Rate:** 0.00%
+* **Throughput:** Highly stable under maximum load
 
-## 🌍 Deployment
-
-Production environment hosted on AWS Lightsail (Ubuntu).  
-Configured with Nginx reverse proxy, SSL termination, and firewall security.
+![JMeter Load Test](jmeter_load_testing.jpeg)
 
 ---
 
-## 📌 Note
+## ⚙️ Technical Stack Deep-Dive
 
-Production source code is private due to security and business considerations.
-
-This repository showcases:
-
-- System Architecture
-- Performance Validation
-- Deployment Strategy
-- Scalability Design
-- Technical Capabilities
+* **Backend:** Java 17, Spring Boot, Spring Security (JWT), Hibernate/JPA, REST API Design (v1/v2 ready)
+* **Frontend/Mobile:** React.js, React Native (TypeScript), Vite
+* **Database:** MySQL (Relational Schema Design)
+* **Infrastructure & DevOps:** AWS Lightsail (Ubuntu), Nginx (Reverse Proxy & SSL), Linux Server Administration
+* **QA & Testing:** Apache JMeter, Postman
 
 ---
 
-## 👨‍💻 Author
+## 📫 Let's Connect
 
-Srinu R  
-Full Stack Developer  
-Andhra Pradesh, India
+I am a self-taught Full-Stack Developer with a background in Mechanical Engineering. I specialize in building end-to-end products and architecting scalable backend systems.
+
+* **Developer:** Srinu R
+* **LinkedIn:** [Add Your LinkedIn URL Here]
+* **Email:** [iamsrinur94@gmail.com]

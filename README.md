@@ -93,5 +93,5 @@ The Spring Boot backend was rigorously tested to simulate high-traffic scenarios
 I am a self-taught Full-Stack Developer with a background in Mechanical Engineering. I specialize in building end-to-end products and architecting scalable backend systems.
 
 * **Developer:** Srinu R
-* **LinkedIn:** [Add Your LinkedIn URL Here]
+* **LinkedIn:** [[linkedin.com/in/srinu-jejoy](https://www.linkedin.com/in/srinu-jejoy)
 * **Email:** [iamsrinur94@gmail.com](mailto:iamsrinur94@gmail.com)

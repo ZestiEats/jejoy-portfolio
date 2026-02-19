@@ -25,6 +25,9 @@ Load tested using Apache JMeter.
 - Error Rate: 0%
 - Average Response Time: ~80–100ms
 - Stable throughput under high traffic
+## 📸 Load Testing Report
+
+![JMeter Load Test](jmeter_load_testing.jpeg)
 
 ---
 

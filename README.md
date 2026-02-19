@@ -84,7 +84,7 @@ The Spring Boot backend was rigorously tested to simulate high-traffic scenarios
 ## 🔗 Live Links & Video Demo
 
 * 📱 **Play Store (Beta):** [JeJoy on Google Play](https://play.google.com/store/apps/details?id=com.jejoy.customer)
-* 🎥 **Customer App Walkthrough:** [Add YouTube/Loom Link Here]
+* 🎥 **Customer App Walkthrough:** [Watch Video Here](https://youtube.com/shorts/xhYULvrYFnI?feature=share)
 
 ---
 
@@ -94,4 +94,4 @@ I am a self-taught Full-Stack Developer with a background in Mechanical Engineer
 
 * **Developer:** Srinu R
 * **LinkedIn:** [Add Your LinkedIn URL Here]
-* **Email:** [iamsrinur94@gmail.com]
+* **Email:** [iamsrinur94@gmail.com](mailto:iamsrinur94@gmail.com)

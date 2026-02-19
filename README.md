@@ -63,6 +63,31 @@ The Spring Boot backend was rigorously tested to simulate high-traffic scenarios
 
 ---
 
+## 📱 Application UI Showcase
+
+<p align="center">
+  <img src="delivery_partner.jpeg" width="250" alt="Delivery Partner App" />
+  &nbsp;&nbsp;&nbsp;
+   <img src="delivery_partner(2).jpeg" width="250" alt="Delivery Partner App" />
+    &nbsp;&nbsp;&nbsp;
+  <img src="restaurant_owner.jpeg" width="250" alt="Restaurant Owner App" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="restaurant_owner(2).jpeg" width="250" alt="Restaurant Owner App" />
+    &nbsp;&nbsp;&nbsp;
+  <img src="admin_dashboard.png" width="400" alt="Admin Web Dashboard" />
+    &nbsp;&nbsp;&nbsp;
+     <img src="admin_dashboard(2).png" width="400" alt="Admin Web Dashboard" />
+</p>
+
+---
+
+## 🔗 Live Links & Video Demo
+
+* 📱 **Play Store (Beta):** [JeJoy on Google Play](https://play.google.com/store/apps/details?id=com.jejoy.customer)
+* 🎥 **Customer App Walkthrough:** [Add YouTube/Loom Link Here]
+
+---
+
 ## 📫 Let's Connect
 
 I am a self-taught Full-Stack Developer with a background in Mechanical Engineering. I specialize in building end-to-end products and architecting scalable backend systems.
